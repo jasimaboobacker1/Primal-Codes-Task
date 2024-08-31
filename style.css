@@ -1,0 +1,248 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+
+.container{
+    width: 100%;
+    height: auto;
+    padding: 60px  290px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo{
+  width: 375px;
+  height: 120px;
+  margin-left: auto;
+}
+
+.banner-section{
+  width: 100%;
+  height: 320px;
+  margin-top: 50px;
+  background: url('./Assetes/Banner\ img.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.first-section{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  font-family: "Roboto", sans-serif;
+  font-weight: 0;
+  margin-bottom: 90px;
+}
+
+.headingfont{
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 1.5rem;
+  margin-top: 50px;
+}
+
+.name-email-container{
+  width: 100%;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 50px;
+
+}
+
+.name{
+  width: 50%;
+  height: 50px;
+  border:  2px black;
+  display: flex;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+.email{
+  width: 50%;
+  height: 50px;
+  border:  2px black;
+  display: flex;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 1.2rem;
+  margin-left: 220px;
+
+}
+
+.inputboxname{
+  width: 450px;
+  height: 76%;
+  background-color: rgb(174, 173, 173);
+  border: none;
+  margin-left: 50px;
+  padding: 20px;
+  font-size: 1.1rem;
+  font-weight: 500;
+
+}
+
+.inputboxemail{
+  width: 450px;
+  height: 76%;
+  background-color: rgb(174, 173, 173);
+  border: none;
+  margin-left: 50px;
+  padding: 20px;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.second-section{
+  width: 100%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.upper-part{
+  width: 100%;
+  height: auto;
+  display: flex;
+  border: 3px solid black;
+}
+
+.one{
+  width: 33.333%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-content: space-around;
+}
+
+.two{
+  width: 33.333%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-content: space-around;
+}
+.three{
+  width: 33.333%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Course-input{
+  width: 75%;
+  height:46px;
+  background-color: rgb(174, 173, 173);
+  border: none;
+  padding: 20px;
+  font-size: 1.1rem;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+.uni-input{
+  width: 75%;
+  height:46px;
+  background-color: rgb(174, 173, 173);
+  border: none;
+  padding: 20px;
+  font-size: 1.1rem;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+
+
+
+
+@media only screen and (max-width: 560px) {
+ 
+ 
+.container{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+.logo{
+  width: 135px;
+  height: 70px;
+  margin-left: auto;
+}
+.banner-section{
+  width: 100%;
+  height: 320px;
+  margin-top: 10px;
+  background: url('./Assetes/Banner\ img.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.first-section{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  font-family: "Roboto", sans-serif;
+  font-weight: 0;
+}
+
+.name-email-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.name{
+  width: 100%;
+  height: 50px;
+  border:  2px black;
+  display: flex;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+.email{
+  width: 100%;
+  height: 50px;
+  border:  2px black;
+  display: flex;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 1.2rem;
+  margin-left: 0px;
+}
+}
+
+
+
