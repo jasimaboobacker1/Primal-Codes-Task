@@ -37,7 +37,7 @@
   flex-direction: column;
   font-family: "Roboto", sans-serif;
   font-weight: 0;
-  margin-bottom: 90px;
+  margin-bottom: 60px;
 }
 
 .headingfont{
@@ -85,7 +85,7 @@
 .inputboxname{
   width: 450px;
   height: 76%;
-  background-color: rgb(174, 173, 173);
+  background-color: rgb(203, 201, 201);
   border: none;
   margin-left: 50px;
   padding: 20px;
@@ -97,7 +97,7 @@
 .inputboxemail{
   width: 450px;
   height: 76%;
-  background-color: rgb(174, 173, 173);
+  background-color: rgb(203, 201, 201);
   border: none;
   margin-left: 50px;
   padding: 20px;
@@ -107,21 +107,19 @@
 
 .second-section{
   width: 100%;
-  height: 500px;
+  height: auto;
   display: flex;
   flex-direction: column;
-
 }
 
 .upper-part{
   width: 100%;
   height: auto;
   display: flex;
-  border: 3px solid black;
 }
 
 .one{
-  width: 33.333%;
+  width: 30%;
   height: 300px;
   display: flex;
   flex-direction: column;
@@ -130,7 +128,7 @@
 }
 
 .two{
-  width: 33.333%;
+  width: 30%;
   height: 300px;
   display: flex;
   flex-direction: column;
@@ -138,9 +136,10 @@
   justify-content: space-around;
 }
 .three{
-  width: 33.333%;
-  height: 100px;
+  width: 40%;
+  height: auto;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
@@ -148,11 +147,9 @@
 .Course-input{
   width: 75%;
   height:46px;
-  background-color: rgb(174, 173, 173);
+  background-color: rgb(203, 201, 201);
   border: none;
   padding: 20px;
-  font-size: 1.1rem;
-  font-weight: 500;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 1.2rem;
@@ -161,15 +158,97 @@
 .uni-input{
   width: 75%;
   height:46px;
-  background-color: rgb(174, 173, 173);
+  background-color: rgb(203, 201, 201);
   border: none;
   padding: 20px;
-  font-size: 1.1rem;
-  font-weight: 500;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 1.2rem;
 }
+
+.rowyears{
+  width: 100%;
+  height: 25%;
+  display: flex;
+  align-items: center;
+}
+
+.year-input{
+  width: 75%;
+  height:46px;
+  background-color: rgb(203, 201, 201);
+  border: none;
+  padding: 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 1.2rem;
+  color: black;
+
+}
+
+.year-input::placeholder {
+  color: black;
+  opacity: 1;
+}
+
+.Course-input::placeholder {
+  color: black;
+  opacity: 1;
+}
+.uni-input::placeholder {
+  color: black;
+  opacity: 1;
+}
+
+.circle{
+  width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(203, 201, 201);
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lower-circle{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: rgb(203, 201, 201);
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.last-section{
+  width: 100%;
+  height: 500px;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.save-button{
+  width: 150px;
+  height: 50px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 1.2rem;
+  background-color: rgb(203, 201, 201);
+  border: none;
+  margin-top: 40px;
+}
+
+
 
 
 
@@ -241,6 +320,39 @@
   font-weight: 500;
   font-size: 1.2rem;
   margin-left: 0px;
+}
+
+.year-input {
+  width: 75%;
+  height: 46px;
+  background-color: rgb(174, 173, 173);
+  border: none;
+  padding: 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: .8rem;
+  color: black;
+}
+.Course-input{
+  width: 75%;
+  height:46px;
+  background-color: rgb(174, 173, 173);
+  border: none;
+  padding: 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: .8rem;
+}
+
+.uni-input{
+  width: 75%;
+  height:46px;
+  background-color: rgb(174, 173, 173);
+  border: none;
+  padding: 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: .8rem;
 }
 }
 
